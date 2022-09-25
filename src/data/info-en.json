@@ -1,0 +1,162 @@
+{
+    "basic": 
+        {
+            "name" : "Beniro",
+            "rol" : "Full Stack Developer",
+            "image" : "/img/profile-bg.png",
+            "description" : "knowledge in the software development process, from frontend, backend, database and architecture",
+            "email" : "beniro_vielma@hotmail.com",
+            "linkedin" : "https://www.linkedin.com/in/beniro-vielma-592184126",
+            "github" : "https://github.com/benirov",
+            "phone" : "+573227009744",
+            "location" : "Colombia"
+        }
+    ,
+    "about" : {
+        "description" : "Full Stack Developer, with extensive knowledge in Backend, Frontend, DB and architecture technologies. Self-taught and able to work independently and meet the requirements of the different processes from software development to production use",
+        "experience" : "+5",
+        "companies": "2",
+        "remote": "+3"
+    },
+    "skills" : [
+        [ {
+            "name": "Front End Development",
+            "id": "FRONT",
+            "experiencie" :  "More than 5 years of experience",
+            "nameskills" :[
+                "HTML / HTML5",
+                "CSS",
+                "React",
+                "BOOTSTRAP",
+                "Material Design",
+                "Javascript"
+            ]
+        },
+        {
+            "name": "Backend End Development",
+            "id": "BACK",
+            "experiencie" :  "More than 5 years of experience",
+            "nameskills" :[
+                "PHP",
+                "Node JS",
+                "Python"
+            ]
+        },
+        {
+            "name": "Database",
+            "experiencie" :  "More than 4 years of experience",
+            "id": "DB",
+            "nameskills" :[
+                "MySQL",
+                "MongoDb"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "id": "DEVOPS",
+            "experiencie" :  "1 year of experience",
+            "nameskills" :[
+                "Google Cloud Platform",
+                "Kubernetes",
+                "Docker",
+                "Docker-compose",
+                "GIT"
+            ]
+        }]
+    ],
+    "qualification": {
+        "Education" : [
+                {
+                "institucion" : "UNEFA",
+                "name" : "Systems engineer",
+                "year": "2012 - 2016",
+                "location": "Venezuela"
+                }
+        ],
+        "work":{
+            "experiencie":[
+                {
+                    "company" : "Alcántara, Trujillo & Asociados C.A",
+                    "title" : "Junior Developer",
+                    "location" : "Caracas, Venezuela",
+                    "years":"2016 - 2018",
+                    "description": "implementation of logic through the JavaScript language (Client) and PHP (Server) in the different web platforms that the company manages. Creation of new functionalities for the company's platforms."
+                },{
+                    "company" : "ZOOM Consultores",
+                    "title" : "Software Developer",
+                    "location" : "Bogotá, Colombia",
+                    "years":"2019 - Present",
+                    "description": "Creation of modules and new functionalities for the main software of the company Modeling and creation of tables, creation of views and store procedures of relational databases (MYSQL) Creation of models for non-relational databases (MongoDB) Refactoring of applications to new programming languages ​ to improve performance Migration from Monolithic architecture to Microservices using Google cloud platform (GCP) as a provider (Compute Engine, Kubernetes, cloud sql proxy among others)"
+                }
+            ]
+        }
+    },
+    "portfolio": [
+        {
+            "name" : "Project Shop",
+            "tecnologies" : ["React", "Nodejs", "docker-compose"],
+            "repo": "https://github.com/benirov/projectshop-docker",
+            "url": "https://zesty-kashata-df4c28.netlify.app/",
+            "description": "Basic virtual store project with react in frontend, express in backend and mongodb in database. the project is dockerized",
+            "img": "/assets/projects/portfolio1.png"
+        },{
+            "name" : "Basic Rest API Using NodeJs",
+            "tecnologies" : ["Nodejs", "Express", "mongoDb", "handlebars"],
+            "repo": "https://github.com/benirov/apinode",
+            "url": "https://apinode.onrender.com/",
+            "description": "Api with Auth for virtual store(user, productos, orders)",
+            "img": "/assets/projects/portfolio2.png"
+        },{
+            "name" : "Text Miracles",
+            "tecnologies" : ["Nodejs", "React Native"],
+            "repo": "https://github.com/benirov/text-miracles-react-native",
+            "url": "https://github.com/benirov/text-miracles-react-native/blob/main/Text-Miracles-signed.apk",
+            "description": "React Native App Using Axios to show poems and texts of famous authors. Go to repo and download the APK file for install. Enjoy it",
+            "img": "/assets/projects/portfolio3.png"
+        },{
+            "name" : "Api Text Miracles",
+            "tecnologies" : ["Nodejs", "Nodejs", "mongoDb", "Express"],
+            "repo": "https://github.com/benirov/text-view-miracles-api",
+            "url": "http://textviewsmiracles.herokuapp.com/api/textviews/1",
+            "description": "React Native App Using Axios to show poems and texts of famous authors. Go to repo and download the APK file for install. Enjoy it",
+            "img": "/assets/projects/portfolio4.png"
+        },{
+            "name" : "Tickects system ci4",
+            "tecnologies" : ["PHP", "MySQL", "HTML", "JQUERY", "Codeigneiter 4", "Heroku"],
+            "repo": "https://github.com/benirov/tickects_ci4",
+            "url": "https://tickects-app-ci4.herokuapp.com/",
+            "description": "This is an application that creates tickets through a configured service mailbox",
+            "img": "/assets/projects/portfolio5.png"
+        },{
+            "name" : "Spotify Alarm",
+            "tecnologies" : ["PHP", "MySQL", "HTML", "JQUERY", "Codeigneiter 4", "Heroku"],
+            "repo": "https://github.com/benirov/spotifyalarm",
+            "url": "https://trusting-ritchie-d15690.netlify.app/autorization",
+            "description": "this project using the spotify api to play song on any device of your account sinc, if you want try this app, contact me for register your email spotify, the app are in development mode",
+            "img": "/assets/projects/portfolio6.png"
+        },{
+            "name" : "API Books Find",
+            "tecnologies" : ["Nodejs", "mongoDb", "Express"],
+            "repo": "https://github.com/benirov/apirestbooks",
+            "url": "https://apirestbooks.herokuapp.com/api/books/1",
+            "description": "Api to get any book you want. This project are in development mode",
+            "img": "/assets/projects/portfolio7.png"
+        }
+        ,{
+            "name" : "auth qr code",
+            "tecnologies" : ["Nodejs", "React", "mongoDb", "Express", "SockectIO"],
+            "repo": "https://github.com/benirov/client-auth.qr",
+            "url": "https://majestic-pastelito-1f22a6.netlify.app/",
+            "description": "Autentication based qr code, Using SockectIo to real time conections and events",
+            "img": "/assets/projects/portfolio8.png"
+        },{
+            "name" : "Simple Twitter clone real time",
+            "tecnologies" : ["Nodejs", "GraphQL", "mongoDb", "GraphQL Susbcriptions"],
+            "repo": "https://github.com/benirov/simple-twitter-view",
+            "url": "https://bucolic-swan-ec550d.netlify.app/",
+            "description": "twiter clone with real time send tweets. This project are in development mode",
+            "img": "/assets/projects/portfolio9.png"
+        }
+    ]
+
+}
